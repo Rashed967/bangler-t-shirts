@@ -13,6 +13,7 @@ import Main from './components/Layout/Main';
 import About from './components/About/About';
 import OrderReview from './components/Order/OrderReview';
 import Contact from './components/Contact/Contact';
+import Grandpa from './components/Grandpa/Grandpa';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path : "/orders",
         element : <OrderReview></OrderReview>
+      }, 
+      {
+        path : "/grandpa",
+        element : <Grandpa></Grandpa>
       }, 
       {
         path : "/contact",
